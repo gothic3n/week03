@@ -17,6 +17,22 @@ The JDK, JRE, and JVM interact with each other to make a java program and run it
 
 3. With the help of the code for Hello World program in Java (you can copy code with citation), explain when this program needs JDK (and not JRE and JVM), JRE (and not JVM) and JVM.
 
+```
+/* This is a simple Java program. 
+   FileName : "HelloWorld.java". */
+class HelloWorld 
+{ 
+    // Your program begins with a call to main(). 
+    // Prints "Hello, World" to the terminal window. 
+    public static void main(String args[]) 
+    { 
+        System.out.println("Hello, World"); 
+    } 
+} 
+```
+Citation:
+Beginning Java programming with Hello World Example. (2018, July 13). Retrieved September 17, 2020, from https://www.geeksforgeeks.org/beginning-java-programming-with-hello-world-example/
+
 
 4. Modify the document at least twice each person to make it better and show your competency to do version control using github.
 
