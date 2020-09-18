@@ -4,6 +4,7 @@ Week 03 assigment
 Members:
 
 Frank Munoz
+
 Erica Wisniewski
 
 1. What are JDK, JRE and JVM? It should be in your own words and not more than two unambiguous sentences for each.
