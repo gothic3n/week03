@@ -4,6 +4,7 @@ Week 03 assigment
 Members:
 
 Frank Munoz
+Erica Wisniewski
 
 1. What are JDK, JRE and JVM? It should be in your own words and not more than two unambiguous sentences for each.
 
@@ -33,6 +34,8 @@ class HelloWorld
 Citation:
 Beginning Java programming with Hello World Example. (2018, July 13). Retrieved September 17, 2020, from https://www.geeksforgeeks.org/beginning-java-programming-with-hello-world-example/
 
+
+The "Hello World" program above uses JDK, JRE, and JVM to run. The program uses the JDK to compile and run the java code within the file. If a developer was going to try to debug this code, they would also be using the JDK in this regard. The JRE - or runtime environment - will contain the class libraries and is responsible for loading classes and making sure this is correctly working with Java libraries. So we are using "System" in this program, which is a class that includes standard I/O and file accessing. The JRE would make sure this class can be used. The JRE also responsible for the JVM, which is used at runtime by making sure the running application, in this case "Hello World", has the proper resources to run, like memory. So for this program, we are passing a string to println() which in turn will print our string, this could involve allocating memory to pass this string to println, or memory to contain our specific instruction set which will set our string and any instructions involved in the Java class function call.
 
 4. Modify the document at least twice each person to make it better and show your competency to do version control using github.
 
