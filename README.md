@@ -42,6 +42,6 @@ The "Hello World" program above uses JDK, JRE, and JVM to run. The program uses 
 4. Modify the document at least twice each person to make it better and show your competency to do version control using github.
 
 
-
+Question: Is there a way to interface through the JDK to see the resources (ex memory) being used for a particular Java program?
 
 
