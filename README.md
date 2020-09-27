@@ -16,9 +16,9 @@ The JVM is the Java Virtual Machine. It is a tool that interfaces between the so
 
 2. What is the relation between the three (JDK, JRE, JVM)? How is Java code executed in a Java program. Explain by assuming that the program was written on one platform (e.g., Windows) and executed on another (e.g., Linux). Small paragraph of 6-9 sentences.
 
-The JDK, JRE, and JVM interact with each other to make a java program and run it. The JDK is used to compile the code into what is called bytecode. Then this bytecode is run on the JRE which includes the JVM within it that runs the bytecode. The JVM runs the bytecode converting it to machine language that the particular computer system understands. For example code could have been written and compiled on a windows machine using the JDK. then that compiled bytecode could be moved to a linux machine and run using that linux machine's version of the JRE. Once run in that linux machine JRE the JVM of the JRE would be invoked to take the bytecode and convert the bytecode into machine language that the linux machine can run as if it were a native linux application.
+The JDK, JRE, and JVM interact with each other to compile a Java program and run it. The JDK is used to compile the code into what is called bytecode. After the compile, this bytecode is run on the JRE which includes the JVM within it. The JVM runs the bytecode converting it to machine language that the particular computer system understands. In this way, example code can be written and compiled on a Windows machine using the JDK and then that compiled bytecode could be moved to a linux machine and run using that linux machine's version of the JRE. Once the run in that linux machine JRE the JVM of the JRE would be invoked to take the bytecode and convert the bytecode into machine language that the linux machine can run as if it were a native linux application. At another step, because the written program is reliant on the use of the JDK, as long as both have the same JDK, a compiled Java program can be run across platform. The JDK contains the JRE and in this way it does not matter which platform is used to write the program, because a computer can read and run the program using the JDK.
 
-3. With the help of the code for Hello World program in Java (you can copy code with citation), explain when this program needs JDK (and not JRE and JVM), JRE (and not JVM) and JVM.
+1. With the help of the code for Hello World program in Java (you can copy code with citation), explain when this program needs JDK (and not JRE and JVM), JRE (and not JVM) and JVM.
 
 ```
 /* This is a simple Java program. 
@@ -42,6 +42,6 @@ The "Hello World" program above uses JDK, JRE, and JVM to run. The program uses 
 4. Modify the document at least twice each person to make it better and show your competency to do version control using github.
 
 
-Question: Is there a way to interface through the JDK to see the resources (ex memory) being used for a particular Java program?
+Non-trivial Question: Is there a way to interface through the JDK to see the resources (ex memory) being used for a particular Java program?
 
 
